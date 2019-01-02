@@ -1,0 +1,25 @@
+{
+  "name": "twelve-factor-app",
+  "version": "1.0.0",
+  "description": "Creation of 12-factor app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorra/twelve-factor-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meteorra/twelve-factor-app/issues"
+  },
+  "homepage": "https://github.com/meteorra/twelve-factor-app#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "mongodb": "^3.1.10"
+  }
+}
